@@ -1,0 +1,86 @@
+/* Colors and fonts */
+body{
+background-color:rgb(230,230,230);
+color:rgb(15,15,15);
+font-family:  'Roboto', sans serif;
+font-size:12px;
+line-height:1.9;
+letter-spacing:1px;
+}
+
+@media (max-width:500px){
+background-color:purple ;
+}
+
+
+.images_petit{
+width:150px;
+height:200px;
+border-radius:50%;
+}
+
+.btn-blue{
+background-color: purple;
+color: white;
+padding: 10px 15px;
+border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background: black;
+	color:white;
+}
+
+.list-inline{
+	style:none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+display:inline;
+padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px
+	color:purple;
+}
+
+.list-inline i hover:{
+background: black;
+color: white
+}
+
+h2,h1{
+color:purple;
+font-family:'Odibee Sans', cursive;
+}
+
+h1{
+	letter-spacing:13px;
+	font-size:18px;
+	font-weight:100;
+	text-justify:center;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+color:purple;  
+}
+
+
+div{ style="
+box-shadow:none;
+background: white;
+padding: 0px auto;
+box-shadow: 0 15px 35px rgba(128,0,128,.3);
+width:400px;
+margin: 0 auto;
+border-radius: 5px;
+border:3px purple;
+text-align: center;
+"}
